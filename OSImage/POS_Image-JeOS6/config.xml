@@ -101,7 +101,7 @@
         <package name="sles-release"/>
 <!--         <package name="sles-release-DVD"/> -->
         <package name="rhn-org-trusted-ssl-cert-osimage" bootinclude="true"/>
-
+        <package name="nss-mdns"/>
     </packages>
     <packages type="delete">
         <package name="mtools"/>
