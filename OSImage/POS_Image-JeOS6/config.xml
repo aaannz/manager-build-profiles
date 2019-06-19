@@ -88,6 +88,8 @@
         <package name="plymouth"/>
         <package name="wpa_supplicant"/>
         <package name="busybox"/>               <!-- this is needed if tftp is used for background image downloading -->
+        <!-- next line intentionaly breaks the build for demonstration purposes -->
+        <package name="not-existing-package-here"/>
     </packages>
     <packages type="bootstrap">
         <package name="udev"/>
