@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<image schemaversion="6.1" name="POS_Image_Graphical7">
+<image schemaversion="6.1" name="POS_Image_Big7">
     <description type="system">
         <author>Admin User</author>
         <contact>noemail@example.com</contact>
-        <specification>SUSE Linux Enterprise 15 SP1 Graphical Image</specification>
+        <specification>SUSE Linux Enterprise 15 SP2 Graphical Image</specification>
     </description>
     <preferences>
         <version>7.0.0</version>
@@ -25,8 +25,8 @@
     </repository>
     -->
     <packages type="image">
-<package name="dracut-kiwi-live"/>
-<package name="dracut-saltboot"/>
+        <package name="dracut-kiwi-live"/>
+        <package name="dracut-saltboot"/>
         <package name="patterns-base-minimal_base"/>
         <package name="aaa_base-extras"/> <!-- wouldn't be SUSE without that ;-) -->
         <package name="acl"/>
@@ -127,6 +127,11 @@
         <package name="dejavu-fonts"/>
         <package name="ghostscript-fonts-std"/>
         <package name="ghostscript-fonts-other"/>
+
+        <!-- Random data to fillup the space -->
+        <package name="0ad-data"/> <!-- 700MB -->
+        <package name="FlightGear-data" /> <!-- 1,82GB -->
+        <package name="urbanterror-data" /> <!-- 1,37GB -->
 
     </packages>
     <packages type="bootstrap">
