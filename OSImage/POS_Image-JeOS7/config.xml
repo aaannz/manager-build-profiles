@@ -66,7 +66,7 @@
         <package name="kernel-default"/>
 	<package name="salt-minion"/>
 
-	<package name="dracut-saltboot"/>
+	<package name="dracut-iguana"/>
         <package name="mdadm"/>
         <package name="cryptsetup"/>
         <package name="kernel-firmware"/>
