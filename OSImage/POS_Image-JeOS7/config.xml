@@ -71,6 +71,8 @@
         <package name="cryptsetup"/>
         <package name="kernel-firmware"/>
         <package name="kexec-tools"/>
+        <package name="device-mapper"/>
+        <package name="e2fsprogs"/>
 
         <!-- uncomment here to enable wireless boot
         <package name="dracut-wireless"/>
